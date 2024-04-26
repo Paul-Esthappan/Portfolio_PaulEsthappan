@@ -2,13 +2,14 @@ import React from 'react'
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedin } from "react-icons/fa";
 import { RiThreadsFill } from "react-icons/ri";
+import dp from "../../public/1699203081062.jpg"
 
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover top-0 left-0"
-        src="public\1699203081062.jpg"
+        src={dp}
         alt="Paul Esthappan"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
