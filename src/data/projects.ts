@@ -3,6 +3,7 @@ export const projects = [
     title: "SEO Optimized Website Platform",
     description:
       "Next.js + TypeScript production website with dynamic routing and SEO optimization",
+    url:"http://zephaniahproperties.co.uk/",
   },
   {
     title: "Video Streaming Platform",

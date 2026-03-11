@@ -31,7 +31,7 @@ export default function Hero() {
           transition={{ delay: 0.4 }}
           className="mt-6 text-neutral-300"
         >
-          I build scalable web applications using Next.js, TypeScript,
+          I build scalable web applications using React.js, Next.js, TypeScript,
           Node.js and MongoDB.
         </motion.p>
 

@@ -6,7 +6,7 @@ import { projects } from "@/data/projects"
 export default function Projects() {
   return (
     <section id="projects" className="py-24 max-w-6xl mx-auto px-6">
-
+      
       <h2 className="text-3xl font-bold mb-12 text-center">
         Featured Projects
       </h2>
@@ -18,7 +18,8 @@ export default function Projects() {
             key={project.title}
             whileHover={{ y: -10, scale: 1.03 }}
             transition={{ type: "spring", stiffness: 200 }}
-            className="glass card-hover p-6 rounded-xl"
+            onClick={() => window.open(project.url, "_blank")}
+            className="glass card-hover p-6 rounded-xl cursor-pointer"
           >
             <h3 className="text-xl font-semibold mb-3">
               {project.title}
@@ -32,7 +33,6 @@ export default function Projects() {
         ))}
 
       </div>
-
     </section>
   )
 }
