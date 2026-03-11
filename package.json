@@ -12,7 +12,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^5.15.8",
+    "@netlify/plugin-nextjs": "^5.15.9",
     "framer-motion": "^12.35.2",
     "next": "16.1.6",
     "postcss": "^8.5.8",
